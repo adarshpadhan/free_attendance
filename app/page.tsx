@@ -17,7 +17,7 @@ export default function Home() {
     "Thanks for considering my desperate plea for mercy. 🙏😄\n\n" +
     "Yours in desperation,\n" +
     "[Your Full Name]\n" +
-    "[Your Roll Number]\n" +
+    "[Your Roll Number]\n"
 
     const mailtoUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 
