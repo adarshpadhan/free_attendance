@@ -8,11 +8,17 @@ export default function Home() {
   // Handle button click with JavaScript instead of using an href
   const handleButtonClick = useCallback(() => {
     const emailAddress = "dean@university.edu"
-    const subject = "Urgent Request: Attendance Consideration"
+    const subject = "My Desperate Plea for Attendance! 😅"
     const body =
-      "Dear Dean,\n\nI hope this email finds you well. I am writing to request your consideration regarding my attendance.\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]"
+      "Dear Dean,\n\n" +
+    "I hope your day is less chaotic than my attendance record, which looks like a haunted house—full of absences and eerie silence. 👻🏚️\n\n" +
+    "Life has been a relentless series of unfortunate events. My alarm clock has become my sworn enemy ⏰🧨, and my pet goldfish has seen more therapists than I can count. 🐠🛋️ It's like the universe is conspiring against my presence in class.\n\n" +
+    "So, here I am, on my knees, begging for a chance to bring my attendance back from the dead. I promise to be more punctual than the Grim Reaper ⏱️ and as dedicated as a zombie to brains. 🧟‍♂️🧠\n\n" +
+    "Thanks for considering my desperate plea for mercy. 🙏😄\n\n" +
+    "Yours in desperation,\n" +
+    "[Your Full Name]\n" +
+    "[Your Roll Number]\n" +
 
-    // Create the mailto URL
     const mailtoUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 
     // Open the email client programmatically
