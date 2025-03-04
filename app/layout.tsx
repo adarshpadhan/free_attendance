@@ -3,8 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Free Attendance!',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Created by @adarsh',
 }
 
 export default function RootLayout({
